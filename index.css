@@ -1,36 +1,101 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-            /* NAV-BAR */
-.nav-bar{
-    /* border: 1px solid red; */
-    background-color: white;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
+/* NAV-BAR */
+.nav-bar {
+  /* border: 1px solid red; */
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
 }
 
 ul {
-    display: flex;
-    align-items: center; 
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
-li{ list-style: none;
-    font-size:20px ;
-    margin-right: 40px;
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 40px;
 }
-li:first-child{
-    background-color: rgb(179, 31, 31);
-    padding: 2px 10px;
-    color: white;
+li:first-child {
+  background-color: rgb(179, 31, 31);
+  padding: 2px 10px;
+  color: white;
 }
-li:hover{
-    color: black;
-    font-weight: 540;
-    text-shadow: 1px 2px 2px rgba(131, 7, 7, 0.623);
+li:hover {
+  color: black;
+  font-weight: 540;
+  text-shadow: 1px 2px 2px rgba(131, 7, 7, 0.623);
 }
-          
+
+/* FRONT-PAGE */
+/* MAIN */
+.main {
+  background-image: url(toolbox/borrow-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  /* border: 1px solid blue; */
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  position: relative;
+  bottom: -70px;
+}
+
+h3 {
+  /* border: 1px solid red; */
+  font-size: 38px;
+  font-family: fVerdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  position: relative;
+  bottom: -30px;
+}
+
+p {
+  /* border: 1px solid green; */
+  width: 700px;
+  height: 90px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+button {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+button:first-of-type {
+  margin-right: 15px;
+  color: white;
+  background-color: brown;
+  border: 1px solid brown;
+}
+
+button:nth-child(2) {
+  background: none;
+  border: 1px solid white;
+}
+
+button:nth-child(2):hover {
+  background-color: brown;
+}
