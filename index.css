@@ -6,11 +6,12 @@
   /* border: 1px solid red; */
   background-color: white;
   width: 100%;
-  height: 80px;
+  height: 85px;
   display: flex;
   justify-content: space-around;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 ul {
@@ -42,19 +43,22 @@ li:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  filter: brightness(65%);
 }
+
 
 h1 {
   /* border: 1px solid blue; */
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  position: relative;
-  bottom: -70px;
+  margin-top: 90px;
+  
 }
 
 h3 {
@@ -62,26 +66,27 @@ h3 {
   font-size: 38px;
   font-family: fVerdana, Geneva, Tahoma, sans-serif;
   color: white;
-  position: relative;
-  bottom: -30px;
+  /* padding-bottom: 20px; */
+ 
 }
+  
 
 p {
   /* border: 1px solid green; */
   width: 700px;
-  height: 90px;
   font-size: 20px;
   text-align: center;
   background-color: white;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 button {
   width: 200px;
   height: 45px;
   font-size: 20px;
-  margin-top: 30px;
   padding: 5px;
+ 
 }
 
 button:first-of-type {
