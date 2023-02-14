@@ -15,6 +15,21 @@
   left: 0;
   z-index: 999;
 }
+.background-image{
+  background-image: url(toolbox/borrow-background.jpg);
+  height: 40em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(65%);
+  z-index: -1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.24)),
+  /* justify-content: center; */
+}
 
 .list {
   display: flex;
