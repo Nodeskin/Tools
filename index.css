@@ -81,7 +81,7 @@ h3 {
 .intro {
   /* border: 1px solid green; */
   width: 670px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   background-color: white;
@@ -127,7 +127,7 @@ button:nth-child(2):hover {
 }
 .content {
   /* border: 1px solid blue; */
-  margin-top: 180px;
+  margin: 190px 30px 0;
   background-color: white;
   padding-bottom: 50px;
   display: flex;
@@ -169,7 +169,7 @@ button:nth-child(2):hover {
 .earn-button {
   width: 95%;
   height: 60px;
-  padding: 5px;
+  padding-top: 5px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
@@ -199,7 +199,7 @@ img {
 }
 
 span {
-  
+
   margin: 10px 0;
 }
 .available-tools {
@@ -270,10 +270,11 @@ span {
     width: 100%;
     margin-left: 30px;
     margin-bottom: 10px;
-
-
   }
 
+  .earn-button{
+    padding-top: 15px;
+  }
   .left-content {
     width: 100%;
     margin-right: 30px;
