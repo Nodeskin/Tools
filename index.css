@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body{ background-color: rgb(250, 249, 248);}
+body{ background-color: rgb(240, 237, 234);}
 
 /* NAV-BAR */
 .nav-bar {
@@ -63,16 +63,16 @@ body{ background-color: rgb(250, 249, 248);}
 
 h1 {
   /* border: 1px solid blue; */
-  font-size: 45px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 55px;
+  font-family: "Raleway", sans-serif;
   color: white;
   margin-top: 150px;
 }
 
 h3 {
   /* border: 1px solid red; */
-  font-size: 35px;
-  font-family: fVerdana, Geneva, Tahoma, sans-serif;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
   color: white;
   margin: 0;
   /* padding-bottom: 20px; */
@@ -80,8 +80,9 @@ h3 {
 
 .intro {
   /* border: 1px solid green; */
-  width: 550px;
+  width: 670px;
   font-size: 20px;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   background-color: white;
   padding: 15px;
@@ -127,7 +128,8 @@ button:nth-child(2):hover {
 .content {
   /* border: 1px solid blue; */
   margin-top: 180px;
-  
+  background-color: white;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
@@ -136,7 +138,7 @@ button:nth-child(2):hover {
   width: 40;background-color: white;
   font-family: "Times New Roman", Times, serif;
   width: 40%;
-  padding: 20px;
+  padding: 40px 20px 60px 20px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -149,7 +151,7 @@ button:nth-child(2):hover {
   background-color: white;
   font-size: 10px;
   width: 35%;
-  padding: 20px;
+  padding: 90px 20px 60px 20px;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
@@ -165,7 +167,7 @@ button:nth-child(2):hover {
 }
 
 .earn-button {
-  /* width: 80%; */
+  width: 95%;
   height: 60px;
   padding: 5px;
   text-align: center;
@@ -184,18 +186,22 @@ p {
 
 .tools-archive,
 img {
-  margin-top: 80px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 img {
-  width: 240px;
-  height: 200px;
-  margin: 20px 5px 0 5px;
+  width: 250px;
+  height: 210px;
+  margin: 0px 0 10px 5px;
 }
 
+span {
+  
+  margin: 10px 0;
+}
 .available-tools {
   text-align: center;
   cursor: pointer;
@@ -251,7 +257,7 @@ img {
 
 /* MEDIAQUERY */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .company-info {
     flex-direction: column;
   }
@@ -263,6 +269,8 @@ img {
   .right-content {
     width: 100%;
     margin-left: 30px;
+    margin-bottom: 10px;
+
 
   }
 
@@ -270,9 +278,10 @@ img {
     width: 100%;
     margin-right: 30px;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
   .content {
-    margin: 30px;
+    margin: 100px 10px 20px ;
     flex-direction: column;
     align-items: center;
   }
@@ -295,7 +304,7 @@ img {
   }
 
   h1 {
-    margin-top: 160px;
+    margin-top: 150px;
   }
   h3 {
     margin: 0;
@@ -303,7 +312,7 @@ img {
 
   .details,
   .intro {
-    width: 95%;
+    width: 99%;
     padding: 5px;
     margin-bottom: 5px;
     display: flex;
@@ -322,7 +331,7 @@ img {
 }
 
         /* MEDIA QUERRY(IPADs) */
-@media screen and (max-width:850px) and (min-width:520px) {
+@media screen and (max-width:850px) and (min-width:560px) {
   h1,h3 {
     font-size: 40px;
     margin-bottom: 0;
