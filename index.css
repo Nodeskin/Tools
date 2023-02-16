@@ -129,19 +129,18 @@ h3 {
   text-align: center;
 }
 .content {
-  /* border: 1px solid blue; */
   margin: 190px 30px 50px;
+  padding: 100px;
   background-color: white;
-  /* padding-bottom: 0px; */
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .left-content {
   /* border: 1px solid blue; */
   width: 40%;
   background-color: white;
   font-family: "Times New Roman", Times, serif;
-  padding: 40px 20px 60px 20px;
   /* margin-left: 20px; */
   display: flex;
   flex-direction: column;
@@ -154,7 +153,6 @@ h3 {
   background-color: white;
   font-size: 10px;
   width: 40%;
-  padding: 90px 20px 60px 20px;
   /* margin-right: 20px; */
   display: flex;
   flex-direction: column;
@@ -262,11 +260,10 @@ p {
   }
   .Shouib-comment,
   p {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .right-content {
-    /* border: 1px solid red; */
     width: 90%;
     /* margin-right: 35px; */
     margin-bottom: 10px;
@@ -283,7 +280,7 @@ p {
 
   .content {
     width: 100%;
-    /* margin-left: 35px; */
+   padding: 0;
   }
   .earn-button {
     padding-top: 15px;
