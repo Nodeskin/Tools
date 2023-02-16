@@ -375,8 +375,8 @@ p {
     justify-content: space-around;
   }
   button {
-    width: 280px;
-    height: 80px;
+    /* width: 280px; */
+    /* height: 80px; */
     font-size: 30px;
   }
 
