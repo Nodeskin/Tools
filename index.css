@@ -99,18 +99,18 @@ button {
   color: white;
 }
 
-button:first-of-type {
+.lend-button {
   margin-right: 15px;
   background-color: brown;
   border: 1px solid brown;
 }
 
-button:nth-child(2) {
+.tools-button {
   background: none;
   border: 1px solid white;
 }
 
-button:nth-child(2):hover {
+.tools-button:hover {
   background-color: brown;
 }
 
@@ -127,7 +127,7 @@ button:nth-child(2):hover {
 }
 .content {
   /* border: 1px solid blue; */
-  margin: 190px 30px 0;
+  margin: 190px 30px 50px;
   background-color: white;
   /* padding-bottom: 0px; */
   display: flex;
@@ -186,7 +186,7 @@ p {
 
 .tools-archive,
 img {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -195,7 +195,7 @@ img {
 img {
   width: 250px;
   height: 210px;
-  margin: 0px 0 10px 5px;
+  /* margin: 0px 0 10px 5px; */
 }
 
 span {
@@ -205,14 +205,14 @@ span {
 .available-tools {
   text-align: center;
   cursor: pointer;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .price {
   background-color: rgb(189, 98, 98);
-  width: 240px;
-  margin-top: 5px;
-  margin-left: 5px;
+  width: 250px;
+  margin-top: 10px;
+  /* margin-left: 5px; */
 }
 
 .prize-1:hover {
