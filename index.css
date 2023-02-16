@@ -30,8 +30,6 @@ body {
   background-size: cover;
   filter: brightness(65%);
   z-index: -1;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.24));
-  /* justify-content: center; */
 }
 
 .list {
