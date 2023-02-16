@@ -90,7 +90,10 @@ h3 {
   margin-bottom: 50px;
 }
 
-button {
+.lend-button {
+  margin-right: 15px;
+  background-color: brown;
+  border: 1px solid brown;
   width: 200px;
   border-radius: 10px;
   height: 45px;
@@ -99,15 +102,15 @@ button {
   color: white;
 }
 
-.lend-button {
-  margin-right: 15px;
-  background-color: brown;
-  border: 1px solid brown;
-}
-
 .tools-button {
   background: none;
   border: 1px solid white;
+  width: 200px;
+  border-radius: 10px;
+  height: 45px;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
 }
 
 .tools-button:hover {
