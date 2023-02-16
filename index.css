@@ -175,6 +175,7 @@ button {
   font-weight: 600;
   color: white;
   background-color: rgb(15, 15, 51);
+  border: 1px solid rgb(15, 15, 51);
   border-radius: 5px;
 }
 
