@@ -5,7 +5,7 @@ body {
   background-color: rgb(240, 237, 234);
 }
 
-              /* NAV-BAR */
+/* NAV-BAR */
 .nav-bar {
   background-color: white;
   width: 100%;
@@ -41,10 +41,13 @@ body {
   font-size: 20px;
   margin-right: 40px;
 }
-.nav-list:first-child {
+#home-key {
   background-color: rgb(179, 31, 31);
   padding: 2px 10px;
   color: white;
+  list-style: none;
+  font-size: 20px;
+  margin-right: 40px;
 }
 .nav-list:hover {
   color: black;
@@ -52,25 +55,26 @@ body {
   text-shadow: 1px 2px 2px rgba(138, 4, 4, 0.623);
 }
 
-                  /* FRONT-PAGE */
+/* FRONT-PAGE */
 .first-page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
+.header-1 h1 {
   font-size: 55px;
   font-family: "Raleway", sans-serif;
   color: white;
   margin-top: 150px;
 }
 
-h3 {
+.header-1 h3 {
   font-size: 38px;
   font-family: "Raleway", sans-serif;
   color: white;
-  margin: 0;}
+  margin: 0;
+}
 
 .intro {
   width: 670px;
@@ -108,7 +112,7 @@ h3 {
   background-color: brown;
 }
 
-                /* REVIEW SECTION */
+/* REVIEW SECTION */
 .customer-img {
   width: 100px;
   height: 100px;
@@ -171,8 +175,8 @@ p {
   font-size: 20px;
 }
 
-                /* TOOLS-SECTION */
-.tools-archive {
+/* TOOLS-SECTION */
+#tools-archive {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -203,7 +207,7 @@ p {
   background-color: rgb(66, 62, 62);
 }
 
-                /* FOOTER */
+/* FOOTER */
 .footer {
   background-color: rgb(6, 6, 36);
   color: white;
@@ -238,7 +242,7 @@ p {
   margin-top: 50px;
 }
 
-            /* MEDIA-QUERY (PHONES) */
+/* MEDIA-QUERY (PHONES) */
 
 @media screen and (max-width: 550px) {
   .company-info {
@@ -263,7 +267,7 @@ p {
 
   .content {
     width: 100%;
-   padding: 0;
+    padding: 0;
   }
   .earn-button {
     padding-top: 15px;
@@ -276,12 +280,12 @@ p {
     background-color: white;
   }
 
-  .tools-archive{
+  .tools-archive {
     padding: 0;
     justify-content: center;
   }
 
-  .available-tools{
+  .available-tools {
     width: 100%;
     margin-right: 0;
   }
@@ -293,7 +297,7 @@ p {
 
   .available-tools img {
     width: 100%;
-  } 
+  }
 
   .price {
     color: white;
@@ -301,7 +305,7 @@ p {
     font-size: 22px;
     margin: 20px 0 0;
   }
-  
+
   .container.nav-bar,
   .list {
     flex-direction: column;
@@ -335,9 +339,10 @@ p {
     justify-content: space-around;
     margin-top: 30px;
   }
+
 }
 
-              /* MEDIA QUERRY(IPADs) */
+/* MEDIA QUERRY(IPADs) */
 
 @media screen and (max-width: 850px) and (min-width: 560px) {
   h1,
@@ -357,14 +362,258 @@ p {
     font-size: 30px;
   }
 
-  .content{
+  .content {
     padding: 30px 0;
   }
 
-  .available-tools{
+  .available-tools {
     margin: 0;
   }
-  .tools-archive{
+  .tools-archive {
     padding: 0;
   }
+
+}
+
+/* CONTACT-US SECTION */
+.link-style {
+  text-decoration: none;
+}
+
+.contact-container {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us {
+  background-color: whitesmoke;
+  width: 35%;
+  padding: 20px;
+}
+
+.contact-container .contact-header {
+  text-align: center;
+}
+
+.contactUs-h4 {
+  font-size: 30px;
+  margin: 0;
+  color: rgb(219, 124, 90);
+  font-family: Verdana;
+}
+.contactUs-p {
+  font-size: 15px;
+  color: grey;
+}
+
+.info input {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  
+  outline: none;
+}
+
+#contact-msg {
+  width: 100%;
+  height: 90px;
+  outline: none;
+}
+.submit {
+  background-color: rgb(219, 124, 90);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 15px;
+  padding: 7px;
+  margin: 20px 0;
+}
+
+/* REQUEST-TABLE SECTION */
+.request-container {
+  margin: 100px 0;
+}
+
+.request-tab {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.table-header th {
+  padding: 7px 50px;
+  background-color: rgb(240, 162, 18);
+}
+.request-row td {
+  padding: 10px 15px;
+}
+
+.request-row:nth-child(odd) {
+  background-color: rgb(177, 169, 169);
+}
+
+.request-row td:nth-child(4) {
+  background-color: rgb(240, 162, 18);
+  border: 1px solid white;
+}
+
+.request-row td:nth-child(5) {
+  font-weight: bolder;
+}
+
+/* NEW-REQUEST INPUT SECTION */
+.new-request {
+  /* border: 1px solid blue; */
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.request-h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.newRequest-input {
+  background-color: white;
+  padding: 20px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-input label {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.new-input .input-box {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.borrow-label {
+  margin-right: 20px;
+}
+.location-label {
+  margin-right: 60px;
+}
+.days-label {
+  margin-right: 10px;
+}
+.date-label {
+  margin-right: 32px;
+}
+
+#newRequest-p {
+  font-size: 17px;
+}
+
+.request-button {
+  align-self: center;
+  margin: 10px 0;
+}
+.request-button #submit-but {
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color: brown;
+  color: white;
+}
+
+
+
+/* SIGN-UP SECTION */
+.signup-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.sign-up {
+  /* border: 1px solid red; */
+  background-color: white;
+  width: 45%;
+  padding: 30px;
+}
+
+.sign-up h3 {
+  font-size: 20px;
+}
+.sign-up label {
+  display: block;
+  margin-bottom: 10px;
+}
+.signup-input input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.signup-button button {
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.signup-button button:hover {
+  background-color: rgb(184, 115, 13);
+}
+.signup-p p {
+  font-size: 18px;
+  margin: 0;
+}
+
+
+/* MediaQuerry phones */
+@media screen and (max-width: 550px) {
+  .newRequest-input {
+   width: 100%;
+ }
+ .borrow-label {
+   margin-top: 20px;
+ }
+
+ .contact-us {
+   width: 100%;
+   font-size: 30px;
+   margin-top: 40px;
+   padding: 20px;
+ }
+
+ .sign-up {
+  width: 100%;
+  margin-top: 100px;
+  font-size: 20px;
+}
+}
+
+/* Mediaquerry ipad */
+@media screen and (max-width: 850px) {
+ .newRequest-input {
+   width: 100%;
+} 
+.borrow-label {
+ margin-top: 20px;
+}
+.contact-us {
+ width: 100%;
+ padding: 20px;
+}
+
+.sign-up {
+  width: 100%;
+  font-size: 20px;
+}
 }

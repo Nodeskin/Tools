@@ -19,11 +19,22 @@
             alt=""
             style="width: 145px; height: 80px"/>
           <ul class="list">
-            <li class="nav-list">Home</li>
+            <a href="index.html" style="text-decoration: none;">
+              <li id="home-key">Home</li>
+            </a>
+
             <li class="nav-list">About Us</li>
-            <li class="nav-list">Request</li>
-            <li class="nav-list">Contact Us</li>
-            <li class="nav-list">Sign In</li>
+
+            <a href="request.html" style="text-decoration: none;">
+              <li class="nav-list">Request</li>
+            </a>
+            <a href="contact.html" style="text-decoration: none;">
+              <li class="nav-list">Contact Us</li>
+            </a>
+
+            <a href="signup.html" style="text-decoration: none;">
+              <li class="nav-list">Sign In</li>
+            </a>
           </ul>
         </nav>
       </div>
@@ -46,8 +57,8 @@
           </p>
         </div>
         <div class="help-butts">
-          <button class="lend-button">Be a Lender</button>
-          <button class="tools-button">Tools</button>
+          <a href="signup.html"><button class="lend-button">Be a Lender</button></a>
+          <a href="#tools-archive"><button class="tools-button">Tools</button></a>
         </div>
       </section>
                   <!-- REVIEW SECTION -->
@@ -81,7 +92,7 @@
         
 
                 <!-- TOOLS-SECTION -->
-        <section class="tools-archive">
+        <section id="tools-archive">
           <!-- CUTTER-1-->
           <div class="available-tools">
             <img src="toolbox/tool1.jpg" alt="Cutter" />
