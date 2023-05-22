@@ -485,17 +485,13 @@ p {
 
 /* NEW-REQUEST INPUT SECTION */
 .new-request {
-  /* border: 1px solid blue; */
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 80%; */
 }
 .request-h2 {
-  /* text-align: center; */
-  /* padding: 20px; */
   margin-bottom: 10px;
 }
 
@@ -516,7 +512,6 @@ p {
 }
 
 .new-input label {
-  /* display: inline-block; */
   font-size: 15px;
   font-weight: bold;
 }
@@ -524,7 +519,7 @@ p {
 .new-input .input-box {
   width: 70%;
   padding: 10px;
-  /* margin-bottom: 20px; */
+ 
 }
 
 .borrow-label {
@@ -566,7 +561,6 @@ p {
 }
 
 .sign-up {
-  /* border: 1px solid red; */
   background-color: white;
   width: 45%;
   padding: 30px;
@@ -663,8 +657,9 @@ font-size: 16px;
   .newRequest-input {
     width: 100%;
   }
-  .request-row td {
-    padding: 5px;
+  .request-row td,th {
+    width: 10px;
+   padding: 5px;
   }
 
   .borrow-label {
