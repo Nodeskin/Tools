@@ -454,10 +454,16 @@ p {
   margin: 100px 0;
 }
 
+.request-h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .request-tab {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  text-align: center;
   border-collapse: collapse;
   font-size: 16px;
 }
@@ -490,9 +496,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.request-h2 {
-  margin-bottom: 10px;
 }
 
 .newRequest-input {
